@@ -159,7 +159,7 @@ export default function Testimonials({ id }: SectionProps) {
                 <TestimonialCard>
                   <StarRating>{renderStars(testimonial.rating)}</StarRating>
                   <QuoteIcon />
-                  <TestimonialText>"{testimonial.quote}"</TestimonialText>
+                  <TestimonialText>{`"${testimonial.quote}"`}</TestimonialText>
                   <AuthorInfo>
                     <AuthorName>{testimonial.author}</AuthorName>
                     <span>{testimonial.location}</span>
