@@ -16,10 +16,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: 'INOVARE Redes de Proteção',
-  description: 'Instalação de redes de proteção de alta qualidade.',
-}
 
 export default function RootLayout({
   children,
@@ -28,6 +24,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <title>INOVARE</title>
       <head>
         <Script strategy="afterInteractive" dangerouslySetInnerHTML={{
           __html: `
