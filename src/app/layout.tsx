@@ -26,7 +26,7 @@ export default function RootLayout({
     <html lang="en">
       <title>INOVARE</title>
       <head>
-        <Script strategy="afterInteractive" dangerouslySetInnerHTML={{
+        <Script id="googleManager" strategy="afterInteractive" dangerouslySetInnerHTML={{
           __html: `
           (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WBRMKKR');`}}></Script>
         {/* // <!-- End Google Tag Manager --> */}
@@ -38,7 +38,7 @@ export default function RootLayout({
 
         {/* <!-- Global site tag (gtag.js) - Google Ads: 10876347005 --> */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10876347005"></script>
-        <Script strategy="afterInteractive" dangerouslySetInnerHTML={{
+        <Script id="googleManager2" strategy="afterInteractive" dangerouslySetInnerHTML={{
           __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
